@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway Medium", sans-serif;
+    background-color: #f7f8fd;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    min-width: 1200pt;
+    height: 100%;
+}
+
+/*Header div*/
+
+.header {
+    height: 48pt;
+    background-color: #3160b8;
+}
+
+.header-content {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 45pt;
+    width: 900pt;
+}
+
+    /**/
+    /*Work with header-content*/
+    .header-content-title {
+        float: left;
+        width: 300pt;
+        color: white;
+    }
+
+        /**/
+        /*Styling header-content-title*/
+        .header-content-title-upper {
+            font-size: 8pt;
+            width: 100%;
+        }
+
+        .header-content-title-lower {
+            width: 100%;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+
+    .header-content-menu {
+        float: left;
+        width: 375pt;
+    }
+
+        /**/
+        /*Styling header-content-menu buttons*/
+        .header-content-menu-btn {
+            display: inline-block;
+            margin-left: 30pt;
+            height: 45pt;
+            cursor: pointer;
+        }
+
+        .header-content-menu-btn:hover {
+            color: rgb(214, 214, 214);
+        }
+
+            /*Set line-height*/
+            .header-content-menu-btn span {
+                line-height: 45pt;
+                vertical-align: middle;
+            }
+
+    .header-content-options {
+        float: left;
+        width: 225pt;
+    }
+
+        /**/
+        /*Sizing options message button*/
+        .header-content-options-btn {
+            float: left;
+            position: relative;
+            height: 25pt;
+            width: 25pt;
+            border-radius: 50%;
+            background-color: #2654ac;
+        }
+
+        .header-content-options-profile-btn {
+            float: left;
+            margin-left: 10pt;
+            height: 25pt;
+            max-width: 155pt;
+            border-radius: 25pt;
+            background-color: #2654ac;
+        }
+
+            /**/
+            /*Styling span in profile*/
+            .header-content-options-profile-icon {
+                float: left;
+                width: 20pt;
+                height: 20pt;
+                border-radius: 50%;
+                margin-left: 2.5pt;
+            }
+            
+            .header-content-options-profile-name {
+                overflow: hidden;
+                max-width: 95pt;
+                float: left;
+                font-weight: bold;
+                font-size: 8pt;
+                margin: 0 10pt 0 5pt;
+            }
+
+.header-slider {
+    height: 3pt;
+    background: #2a52a1;
+}
+
+    /**/
+    /*Block for slider*/
+    .header-slider-block {
+        background-color: #6294f3;
+        width: 0pt;
+        height: 100%;
+        border-radius: 10pt;
+        transition: all 0.3s ease;
+    }
+
+
+/*Main div*/
+
+.main {
+    width: 900pt;
+    height: calc(100%-50pt);
+    position: relative;
+    left: 50%;
+    margin-top: 15pt;
+    transform: translate(-50%, 0);
+}
+
+.main-search {
+    float: left;
+    width: 225pt;
+}
+
+    /**/
+    /*Styling buttons for search menu*/
+    .main-search-menu {
+        width: 100%;
+        height: 50pt;
+    }
+
+        /**/
+        /*Search menu btns*/
+        .main-search-menu-btn {
+            float: left;
+            padding: 0pt 10pt 0pt 10pt;
+            height: 50pt;
+            font-size: 8pt;
+            cursor: pointer;
+        }
+
+            /**/
+            /*Search menu btn span*/
+            .main-search-menu-btn span {
+                line-height: 50pt;
+                vertical-align: middle;
+            }
+
+    /**/
+    /*Main search form*/
+    .main-search-form {
+        height: 100pt;
+        background-color: white;
+        padding: 0pt 15pt 0 15pt;
+    }
+
+        /**/
+        /*Main search form elements*/
+        .main-search-form-input {
+            position: relative;
+            border: 1px solid rgba(236, 236, 236, 1);
+            display: inline-block;
+            margin-top: 19.5pt;
+            height: 25pt;
+            width: 100%;
+        }
+
+            /**/
+            /*Styling input content*/
+            .main-search-form-input input {
+                float: left;
+                height: 25pt;
+                width: calc(100% - 30pt);
+                margin-left: 5pt;
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                outline: none;
+                border: none;
+            }
+
+                /**/
+                .main-search-form-input input::placeholder {
+                    color: #B1B1B1;
+                }
+
+            .main-search-form-input img {
+                float: left;
+                margin-left: 5pt;
+            }
+
+        .main-search-form-btn {
+            position: relative;
+            height: 25pt;
+            margin-top: 7.25pt;
+            cursor: pointer;
+            background-color: #6196f6;
+        }
+
+            .main-search-form-btn span {
+                font-size: 9pt;
+            }
+
+    .main-content {
+        float: left;
+        width: 600pt;
+        height: 100%;
+        margin: 0 37.5pt 0 37.5pt;
+        padding-bottom: 30pt;
+    }
+
+        /**/
+        /*Styling content of main div*/
+        .main-content-menu {
+            height: 50pt;
+        }
+
+            /**/
+            /*Counter*/
+            .main-content-menu-counter {
+                float: left;
+                font-size: 10pt;
+                color: #7c7f86;
+            }
+
+            /**/
+            /*Switcher*/
+            .main-content-menu-switch {
+                float: right;
+                height: 50pt;
+            }
+
+                /**/
+                .switch-btn {
+                    float: left;
+                    height: 10pt;
+                    width: 10pt;
+                    margin: 0 4pt 0 4pt;
+                    cursor: pointer;
+                }
+
+                .card-switch span {
+                    position: absolute;
+                    width: 10pt;
+                    height: .5pt;
+                    border: 2px solid #cccfd6;
+                    border-radius: 3pt;
+                }
+
+                    /*Styling card switch trough the span*/
+                    .card-switch span:nth-child(2) {
+                        margin-top: 4.75pt;
+                    }
+
+                    .card-switch span:nth-child(3) {
+                        margin-top: 9.5pt;
+                    }
+
+                .table-switch span {
+                    position: absolute;
+                    width: 2.5pt;
+                    height: 2.5pt;
+                    border: 2px solid #cccfd6;
+                    border-radius: 1pt;
+                }
+
+                    /*Styling table switch trough the span*/
+                    .table-switch span:nth-child(2) {
+                        left: 7.5pt;
+                    }
+
+                    .table-switch span:nth-child(3) {
+                        top: 7.5pt;
+                    }
+
+                    .table-switch span:nth-child(4) {
+                        top: 7.5pt;
+                        left: 7.5pt;
+                    }
+
+        /*Two types of data render: list and card*/
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 10pt;
+            grid-row-gap: 10pt;
+        }
+
+            /*Styling item of tableView*/
+            .table-container .item {
+                height: 230pt;
+                background-color: white;
+            }
+
+                /*Item childs*/
+                .table-container .item-img {
+                    height: 55%;
+                    width: 100%;
+                }
+
+                    /**/
+                    .table-container .item-img img {
+                        object-fit: cover;
+                        height: 76.42%;
+                        width: 50%;
+                        border-radius: 50%;
+                    }
+
+                .table-container .item-names {
+                    height: 15%;
+                    overflow: hidden;
+                }
+
+                    .table-container .item-names div {
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        text-align: center;
+                    }
+
+                    .table-container .item-names span {
+                        font-weight: bold;
+                        color: #37383c;
+                    }
+
+                    .table-container .item-names span:nth-child(3) {
+                        font-weight: normal;
+                        color: #c0c4c7;
+                        font-size: 10pt;
+                    }
+
+                .table-container .item-info {
+                    height: 30%;
+                    margin: 0 15% 0 15%;
+                }
+
+                    /**/
+                    .table-container .item-info-line {
+                        height: 20%;
+                    }
+
+                    .table-container .item-info-line hr {
+                        position: relative;
+                        top: 100%;
+                        border: 0;
+                        border-top: 1px solid #c0c4c7;
+                    }
+
+                    .table-container .item-info-content {
+                        height: 60%;
+                    }
+
+                        .table-container .item-info-content img {
+                            width: 10%;
+                        }
+
+                        .table-container .item-info-content span {
+                            padding: 0 5pt 0 3pt;
+                            max-height: 50%;
+                            overflow: hidden;
+                            font-size: 8pt;
+                            font-weight: bold;
+                        }
+
+                        .table-container .item-info-content span:nth-child(2) {
+                            width: 50%;
+                        }
+
+                        .table-container .item-info-content span:nth-child(4) {
+                            width: 20%;
+                        }
+
+
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 10pt;
+        }
+
+            /*Styling item of cardView*/
+            .card-container .item {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100pt;
+                background-color: white;
+            }
+
+                /*Item childs*/
+                .card-container .item-img {
+                    height: 100%;
+                    width: 20%;
+                }
+
+                    /**/
+                    .card-container .item-img img {
+                        object-fit: cover;
+                        height: 60.1503%;
+                        width: 50%;
+                        border-radius: 50%;
+                    }
+
+                .card-container .item-names {
+                    width: 25%;
+                    overflow: hidden;
+                }
+
+                    .card-container .item-names div {
+                        text-align: left;
+                    }
+
+                    .card-container .item-names span {
+                        font-weight: bold;
+                        color: #37383c;
+                    }
+
+                    .card-container .item-names span:nth-child(3) {
+                        font-weight: normal;
+                        color: #c0c4c7;
+                        font-size: 10pt;
+                    }
+
+                .card-container .item-info {
+                    width: 25%;
+                    margin-left: 15%;
+                }
+                    
+                    /**/
+                    .card-container .item-info-line {
+                        display: none;
+                    }
+
+                    .card-container .item-info-content {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        /**/
+                        .card-container .item-info-content img {
+                            width: 10%;
+                        }
+
+                        .card-container .item-info-content span {
+                            padding: 0 5pt 0 3pt;
+                            max-height: 50%;
+                            overflow: hidden;
+                            font-size: 8pt;
+                            font-weight: bold;
+                        }
+
+                        .card-container .item-info-content span:nth-child(2) {
+                            width: 50%;
+                        }
+
+                        .card-container .item-info-content span:nth-child(4) {
+                            width: 20%;
+                        }
+
+/*Дополнительные стили*/
+.btn {
+    font-size: 11pt;
+    color: white;
+}
+
+.span-content-vertical-alignment {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.vertical-alignment {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.horizontal-alignment {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.alignment {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.default-shadow {
+    border-radius: 3px;
+    box-shadow: 0 0 2pt rgba(177, 177, 177, 0.1);
+}
+
+.icon {
+    height: 15pt;
+    width: 15pt;
+}
+
+.search-icon {
+    height: 10pt;
+    width: 10pt;
+}
+
+.default-margin {
+    margin-left: 30pt;
+}
+
+.default-hover:hover {
+    cursor: pointer;
+    background-color: #5473ad;
+}
+
+/*Выравнивание*/
+.flex-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
