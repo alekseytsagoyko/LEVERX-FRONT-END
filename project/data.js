@@ -1,4 +1,4 @@
-﻿let _employees = [
+﻿const _employees = [
     {
         "id": 1,
         "fullName": "Dzmitry Antonenka",
@@ -33,10 +33,10 @@
     },
     {
         "id": 5,
-        "fullName": "Tadra Aleksandr",
-        "nativeName": "Тадра Александр",
+        "fullName": "Buraya Julia",
+        "nativeName": "Бурая Юлия",
         "departament": "Front-End Developer",
-        "src": "https://sun9-29.userapi.com/impf/ZiT7FdVLWxiquMyw8KF3LGyjFg6ENUI3A63UCQ/JhQgoPH7Dk8.jpg?size=548x735&quality=96&sign=0e8a90a9ffbe86e73bd476f7b1447c7d&type=album",
+        "src": "https://sun9-71.userapi.com/impg/U2X7GoocqVmSSGFr0XT1kImC_DuG5SqG-g1z2w/wDNZ1NGJ9rA.jpg?size=1728x2160&quality=96&sign=90a2a759005f1adc4e1c5dcc14262163&type=albumg",
         "room": 1410
     },
     {

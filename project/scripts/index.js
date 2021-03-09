@@ -19,6 +19,7 @@ searchInput.addEventListener("keydown", (e) => {
 function onSearch() {
     let searchedEmployees = searchEmployee(_employees, searchInput.value);
     renderEmployees(searchedEmployees, _container, _counter);
+    addItemListeners();
 }
 
 function renderEmployees(employees, container, counter) {
@@ -29,7 +30,7 @@ function renderEmployees(employees, container, counter) {
         counter.innerHTML = employees.length + " employees displayed";
     }
 
-    Array.from(employees).map(employee => {
+    Array.from(employees).forEach(employee => {
         //Function from render.js
         renderTemplate(employee, container, itemTemplate);
     });

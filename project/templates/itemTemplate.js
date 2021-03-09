@@ -1,6 +1,12 @@
-let itemTemplate = {
+const imagesPath = "images/";
+
+const itemTemplate = {
     type: "div",
-    classes: ["item", "default-shadow"],
+    classes: ["item", "default-shadow", "hover-shadow"],
+    id: ["item"],
+    attributes: {
+        setID: true  
+    },
     childs: [
         {
             type: "div",
@@ -60,7 +66,7 @@ let itemTemplate = {
                         {
                             type: "img",
                             attributes: {
-                                staticSrc: "images/briefcase.svg"
+                                staticSrc: imagesPath + "briefcase.svg"
                             }
                         },
                         {

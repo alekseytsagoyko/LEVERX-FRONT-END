@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LeverX Task1</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header-content">
+                    <div class="header-content-title vertical-alignment">
+                        <span class="header-content-title-upper">LEVERX GROUP</span><br/>
+                        <span class="header-content-title-lower">EMPLOYEE SERVICES</span>
+                    </div>
+                    <div class="header-content-menu vertical-alignment">
+                        <div class="header-content-menu-btn btn" id="menuButton">
+                            <span>Address Book</span>
+                        </div>
+                        <div class="header-content-menu-btn btn" id="menuButton">
+                            <span>Leave Requests</span>
+                        </div>
+                    </div>
+                    <div class="header-content-options btn vertical-alignment">
+                        <div class="header-content-options-btn default-hover">
+                            <img class="icon alignment" src="./images/message.svg">
+                        </div>
+                        <div class="header-content-options-profile-btn default-hover">
+                            <img class="header-content-options-profile-icon vertical-alignment" src="./images/profile.png">
+                            <span class="header-content-options-profile-name vertical-alignment">
+                                JOSEPH SMITH
+                            </span>
+                        </div>
+                        <div class="header-content-options-btn default-margin default-hover">
+                            <img class="icon alignment" src="./images/quit.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-slider">
+                    <div class="header-slider-block" id="slider">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="main">
+                <div class="main">
+                    <div class="main-search">
+                        <div class="main-search-menu">
+                            <div class="main-search-menu-btn vertical-alignment">
+                                <span>BASIC SEARCH</span>
+                            </div>
+                            <div class="main-search-menu-btn vertical-alignment">
+                                <span>ADVANCED SEARCH</span>
+                            </div>
+                        </div>
+                        <div class="main-search-form default-shadow">
+                            <div class="main-search-form-input default-shadow">
+                                <img class="search-icon vertical-alignment" src="./images/search.svg">
+                                <input type="text" placeholder="John Smith / Джон Смит" id="searchInput"/>
+                            </div>
+                            <div class="main-search-form-btn btn default-shadow default-hover" id="searchBtn">
+                                <span class="alignment">SEARCH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content">
+                        <div class="main-content-menu">
+                            <div class="main-content-menu-counter vertical-alignment">
+                                <span id="counter">0 employees displayed</span>
+                            </div>
+                            <div class="main-content-menu-container vertical-alignment">
+                                <div class="main-content-menu-sort vertical-alignment flex-alignment">
+                                    <div class="main-content-menu-sort-title vertical-alignment">
+                                        <img class="icon vertical-alignment" src="./images/sort.svg">
+                                    </div>
+                                    <div class="main-content-menu-sort-item" id="fullSortBtn">
+                                        <span>Full name</span>
+                                    </div>
+                                    <div class="main-content-menu-sort-item" id="nativeSortBtn">
+                                        <span>Native name</span>
+                                    </div>
+                                </div>
+                                <div class="main-content-menu-switch">
+                                    <div class="card-switch switch-btn vertical-alignment" id="cardButton">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="table-switch switch-btn vertical-alignment" id="tableButton">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content-container table-container" id="container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--
+            <div class="profile">
+                <div class="profile-back-btn flex-alignment">
+                    <img src="./images/back.svg">
+                </div>
+                <div class="profile-short">
+                    <div class="profile-short-img">
+                        <img src="./images/profile.png">
+                    </div>
+                    <div class="profile-short-names">
+                        <div class="vertical-alignment">
+                            <span>Joseph Smith</span><br>
+                            <span>Джозеф Смит</span>
+                        </div>
+                    </div>
+                    <div class="profile-short-tags flex-alignment">
+                        <div>
+                            <span class="right-margin">ID</span>
+                            <span>123</span>
+                        </div>
+                        <div class="flex-alignment">
+                            <img class="icon right-margin" src="./images/card.svg">
+                            <span>Business card</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-main">
+                    <div class="profile-main-row">
+                        <span>GENERAL INFO</span>
+                        <hr>
+                        <div class="profile-main-row-item flex-alignment">
+                            <img src="./images/card.svg" class="icon">
+                            <div class="profile-main-row-item-name">
+                                <span>123</span>
+                            </div>
+                            <div class="profile-main-row-item-value">
+                                <span>Value</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-btn">
+                    <div class="flex-alignment" id="editProfileBtn">
+                        <span>EDIT DETAILS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- <script src="data.js"></script> -->
+        <script src="./templates/itemTemplate.js"></script>
+        <script src="./templates/profileTemplate.js"></script>
+        <script src="./scripts/requests.js"></script>
+        <script src="./scripts/slider.js"></script>
+        <script src="./scripts/switch.js"></script>
+        <script src="./scripts/render.js"></script>
+        <script src="./scripts/index.js"></script>
+        <script src="./scripts/profile.js"></script>
+        <script src="./scripts/sort.js"></script>
+        <script src="./scripts/search.js"></script>
+    </body>
+</html>

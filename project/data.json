@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id": 1,
+        "fullName": "Dzmitry Antonenka",
+        "nativeName": "Дмитрий Антоненко",
+        "departament": "ABAPDev",
+        "src": "https://uploads.hb.cldmail.ru/geekbrains/public/ckeditor_assets/pictures/6618/content-fd9e0ca66f1e5eb0df29af1649cb6fa9.png",
+        "room": 1608
+    },
+    {
+        "id": 2,
+        "fullName": "Aleh Zhukau",
+        "nativeName": "Олег Жуков",
+        "departament": "SAPUI5 Developer",
+        "src": "https://rb.ru/media/upload_tmp/2018/653_oooo.plus.png",
+        "room": 1403
+    },
+    {
+        "id": 3,
+        "fullName": "Maxim Podolsky",
+        "nativeName": "Максим Подольский",
+        "departament": "React Developer",
+        "src": "https://uploads.hb.cldmail.ru/geekbrains/public/ckeditor_assets/pictures/6615/content-a5468f8e00b840446f52531da6519f98.png",
+        "room": 1612
+    },
+    {
+        "id": 4,
+        "fullName": "Anna Belova",
+        "nativeName": "Анна Белова",
+        "departament": "Vue Developer",
+        "src": "https://ednamebel.ru/image/catalog/favicon/1111111.jpg",
+        "room": 1414
+    },
+    {
+        "id": 5,
+        "fullName": "Buraya Julia",
+        "nativeName": "Бурая Юлия",
+        "departament": "Front-End Developer",
+        "src": "https://sun9-71.userapi.com/impg/U2X7GoocqVmSSGFr0XT1kImC_DuG5SqG-g1z2w/wDNZ1NGJ9rA.jpg?size=1728x2160&quality=96&sign=90a2a759005f1adc4e1c5dcc14262163&type=albumg",
+        "room": 1410
+    },
+    {
+        "id": 6,
+        "fullName": "Tsagoyko Aleksey",
+        "nativeName": "Цагойко Алексей",
+        "departament": "Java Developer",
+        "src": "https://sun9-45.userapi.com/impg/fBcf0G8uuYr-3jktW58qAnKajQY3UhTJkB280g/T0guP58CSJs.jpg?size=1620x2160&quality=96&sign=d9d97151cb85087dab3b8391637c888c&type=album",
+        "room": 1410
+    }
+]
